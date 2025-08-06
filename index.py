@@ -11,4 +11,6 @@ my_list.extend(my_second_list)
 
 my_list.pop()
 my_list.sort()
-print(my_list[3])
+
+index_of_30 = my_list.index(30)
+print(f"Index of 30: {index_of_30}")
